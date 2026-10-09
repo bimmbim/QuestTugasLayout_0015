@@ -105,3 +105,17 @@ fun KartuMahasiswa(
         }
     }
 }
+
+@Composable
+fun TampilanUtama(modifier: Modifier = Modifier) {
+    Box(modifier = modifier.fillMaxSize()) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = dimensionResource(R.dimen.jarak_atas_layar)),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.jarak_kartu))
+        ) {
+        }
+    }
+}
