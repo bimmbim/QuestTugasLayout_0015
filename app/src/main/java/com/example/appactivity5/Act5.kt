@@ -143,6 +143,13 @@ fun TampilanUtama(modifier: Modifier = Modifier) {
                 warnaLatar = R.color.card_2_bg,
                 warnaAlamat = R.color.teks_kuning
             )
+            KartuMahasiswa(
+                nama = R.string.nama_3,
+                telepon = R.string.telepon_3,
+                alamat = R.string.alamat_3,
+                warnaLatar = R.color.card_3_bg,
+                warnaAlamat = R.color.teks_putih
+            )
         }
     }
 }
