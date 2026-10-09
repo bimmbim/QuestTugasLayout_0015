@@ -46,4 +46,14 @@ fun KartuMahasiswa(
     fontNama: FontFamily = FontFamily.Default,
     bobotNama: FontWeight = FontWeight.Bold
 ) {
+    Card(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(horizontal = dimensionResource(R.dimen.padding_kartu)),
+        shape = RoundedCornerShape(dimensionResource(R.dimen.radius_kartu)),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(warnaLatar)
+        )
+    ) {
+    }
 }
