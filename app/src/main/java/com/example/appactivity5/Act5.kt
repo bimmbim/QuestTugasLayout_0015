@@ -96,6 +96,12 @@ fun KartuMahasiswa(
                     color = colorResource(warnaAlamat)
                 )
             }
+            Spacer(modifier = Modifier.width(dimensionResource(R.dimen.jarak_logo_teks)))
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = stringResource(R.string.desc_logo),
+                modifier = Modifier.size(dimensionResource(R.dimen.ukuran_logo))
+            )
         }
     }
 }
