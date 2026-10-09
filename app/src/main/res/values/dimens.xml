@@ -5,4 +5,14 @@
     <dimen name="ukuran_nama">20dp</dimen>
     <dimen name="ukuran_info">14dp</dimen>
     <dimen name="ukuran_copy">12dp</dimen>
+    <dimen name="jarak_atas_layar">60dp</dimen>
+    <dimen name="jarak_kartu">12dp</dimen>
+    <dimen name="padding_kartu">12dp</dimen>
+    <dimen name="padding_dalam_kartu">12dp</dimen>
+    <dimen name="ukuran_logo">70dp</dimen>
+    <dimen name="jarak_logo_teks">16dp</dimen>
+    <dimen name="jarak_antar_teks">4dp</dimen>
+    <dimen name="radius_kartu">12dp</dimen>
+    <dimen name="jarak_bawah_copy">40dp</dimen>
+    <item name="bobot_teks" format="float" type="dimen">1</item>
 </resources>
