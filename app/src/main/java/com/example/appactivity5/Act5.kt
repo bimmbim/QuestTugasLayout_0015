@@ -116,6 +116,18 @@ fun TampilanUtama(modifier: Modifier = Modifier) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.jarak_kartu))
         ) {
+            Text(
+                text = stringResource(R.string.prodi),
+                fontSize = spResource(R.dimen.ukuran_judul),
+                fontWeight = FontWeight.Bold,
+                color = colorResource(R.color.teks_judul)
+            )
+            Text(
+                text = stringResource(R.string.univ),
+                fontSize = spResource(R.dimen.ukuran_subjudul),
+                fontWeight = FontWeight.Bold,
+                color = colorResource(R.color.teks_judul)
+            )
         }
     }
 }
