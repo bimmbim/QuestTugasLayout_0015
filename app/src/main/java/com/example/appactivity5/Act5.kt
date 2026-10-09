@@ -34,3 +34,16 @@ import androidx.core.content.res.ResourcesCompat
 
 @Composable
 private fun spResource(@DimenRes id: Int): TextUnit = dimensionResource(id).value.sp
+
+@Composable
+fun KartuMahasiswa(
+    @StringRes nama: Int,
+    @StringRes alamat: Int,
+    @ColorRes warnaLatar: Int,
+    @ColorRes warnaAlamat: Int,
+    modifier: Modifier = Modifier,
+    @StringRes telepon: Int? = null,
+    fontNama: FontFamily = FontFamily.Default,
+    bobotNama: FontWeight = FontWeight.Bold
+) {
+}
