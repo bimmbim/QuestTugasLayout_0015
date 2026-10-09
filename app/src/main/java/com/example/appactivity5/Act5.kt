@@ -83,6 +83,18 @@ fun KartuMahasiswa(
                     fontWeight = bobotNama,
                     color = colorResource(R.color.teks_putih)
                 )
+                telepon?.let {
+                    Text(
+                        text = stringResource(it),
+                        fontSize = spResource(R.dimen.ukuran_info),
+                        color = colorResource(R.color.teks_cyan)
+                    )
+                }
+                Text(
+                    text = stringResource(alamat),
+                    fontSize = spResource(R.dimen.ukuran_info),
+                    color = colorResource(warnaAlamat)
+                )
             }
         }
     }
