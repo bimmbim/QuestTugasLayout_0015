@@ -66,6 +66,24 @@ fun KartuMahasiswa(
                 contentDescription = stringResource(R.string.desc_logo),
                 modifier = Modifier.size(dimensionResource(R.dimen.ukuran_logo))
             )
+            Spacer(modifier = Modifier.width(dimensionResource(R.dimen.jarak_logo_teks)))
+            Column(
+                modifier = Modifier.weight(
+                    ResourcesCompat.getFloat(
+                        LocalContext.current.resources,
+                        R.dimen.bobot_teks
+                    )
+                ),
+                verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.jarak_antar_teks))
+            ) {
+                Text(
+                    text = stringResource(nama),
+                    fontSize = spResource(R.dimen.ukuran_nama),
+                    fontFamily = fontNama,
+                    fontWeight = bobotNama,
+                    color = colorResource(R.color.teks_putih)
+                )
+            }
         }
     }
 }
