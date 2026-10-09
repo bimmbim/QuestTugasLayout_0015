@@ -128,6 +128,14 @@ fun TampilanUtama(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = colorResource(R.color.teks_judul)
             )
+            KartuMahasiswa(
+                nama = R.string.nama_1,
+                alamat = R.string.alamat_1,
+                warnaLatar = R.color.card_1_bg,
+                warnaAlamat = R.color.teks_kuning,
+                fontNama = FontFamily.Cursive,
+                bobotNama = FontWeight.Normal
+            )
         }
     }
 }
