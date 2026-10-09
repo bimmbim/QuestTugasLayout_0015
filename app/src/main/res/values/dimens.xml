@@ -5,7 +5,7 @@
     <dimen name="ukuran_nama">20dp</dimen>
     <dimen name="ukuran_info">14dp</dimen>
     <dimen name="ukuran_copy">12dp</dimen>
-    <dimen name="jarak_atas_layar">60dp</dimen>
+    <dimen name="jarak_atas_layar">40dp</dimen>
     <dimen name="jarak_kartu">12dp</dimen>
     <dimen name="padding_kartu">12dp</dimen>
     <dimen name="padding_dalam_kartu">12dp</dimen>
