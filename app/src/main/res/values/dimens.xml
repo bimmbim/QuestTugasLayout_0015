@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ukuran_judul">26dp</dimen>
+    <dimen name="ukuran_subjudul">14dp</dimen>
+    <dimen name="ukuran_nama">20dp</dimen>
+    <dimen name="ukuran_info">14dp</dimen>
+    <dimen name="ukuran_copy">12dp</dimen>
+</resources>
