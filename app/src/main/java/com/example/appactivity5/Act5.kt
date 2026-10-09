@@ -150,6 +150,21 @@ fun TampilanUtama(modifier: Modifier = Modifier) {
                 warnaLatar = R.color.card_3_bg,
                 warnaAlamat = R.color.teks_putih
             )
+            KartuMahasiswa(
+                nama = R.string.nama_4,
+                telepon = R.string.telepon_4,
+                alamat = R.string.alamat_4,
+                warnaLatar = R.color.card_4_bg,
+                warnaAlamat = R.color.teks_putih
+            )
         }
+        Text(
+            text = stringResource(R.string.copy),
+            fontSize = spResource(R.dimen.ukuran_copy),
+            color = colorResource(R.color.teks_judul),
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = dimensionResource(R.dimen.jarak_bawah_copy))
+        )
     }
 }
